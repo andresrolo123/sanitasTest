@@ -9,9 +9,13 @@ This application uses:
 
 # How to run it?
 
-- execute: 
+- execute in 'folder': 
 ```bash
-git clone https://github.com/andresrolo123/sanitasTest.git in 'folder'
+git clone https://github.com/andresrolo123/sanitasTest.git 
+```
+- get 'folder' branch:
+```bash
+git checkout develop
 ```
 - move to 'folder' and execute: 
 ```bash
