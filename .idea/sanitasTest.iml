@@ -84,8 +84,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:3.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.8.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.activation:jakarta.activation-api:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:2.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.3" level="project" />
@@ -117,6 +117,16 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-starter-webmvc-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-starter-common:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-core-jakarta:2.2.19" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.13.0" level="project" />
+    <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-annotations-jakarta:2.2.19" level="project" />
+    <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-models-jakarta:2.2.19" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:swagger-ui:5.10.3" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="2e895905-a6e1-4cc2-9c63-de21e78a68cf" />
