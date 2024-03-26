@@ -13,15 +13,18 @@ public class CalculatorServiceImpl implements CalculatorService {
     }
 
     @Override
-    public int addNumers(int num1, int num2) {
+    public int addNumbers(int num1, int num2) {
         int total = num1 + num2;
         tracer.trace(total);
         return total;
     }
     
     @Override
-    public int subtractNumers(int num1, int num2) {
+    public int subtractNumbers(int num1, int num2) {
         int total = num1 - num2;
+        if (total < 0) {
+            throw new IllegalArgumentException("Negative numbers are not allowed");
+        }
         tracer.trace(total);
         return total;
     }

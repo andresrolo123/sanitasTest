@@ -17,13 +17,13 @@ public class CalculatorController {
         this.calculatorService = calculatorService;
     }
 
-    @GetMapping("/addNumers")
-    public int addNumers(@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
-        return calculatorService.addNumers(num1, num2);
+    @GetMapping("/addNumbers")
+    public int addNumbers(@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
+        return calculatorService.addNumbers(num1, num2);
     }
 
-    @GetMapping("/subtractNumers")
-    public int subtractNumers(@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
-        return calculatorService.subtractNumers(num1, num2);
+    @GetMapping("/subtractNumbers")
+    public int subtractNumbers(@RequestParam("num1") int num1, @RequestParam("num2") int num2) {
+        return calculatorService.subtractNumbers(num1, num2);
     }
 }

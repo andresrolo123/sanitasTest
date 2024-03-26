@@ -37,7 +37,7 @@ http://localhost:8080/swagger-ui.html
 ```
 ### Request Example
 ```bash
-curl -X GET "http://localhost:8080/api/calculator/addNumers?num1=1&num2=5" -H "accept: */*"
+curl -X GET "http://localhost:8080/api/calculator/addNumbers?num1=1&num2=5" -H "accept: */*"
 ```
 ### Response Example
 ```bash
@@ -45,5 +45,5 @@ curl -X GET "http://localhost:8080/api/calculator/addNumers?num1=1&num2=5" -H "a
 ```
 
 # Could we improve it?
-Definitly yes! We could add different tests (mutation, ITs, more UTs), validations and more. We could discuss it
+Definitly yes! We could add different tests (mutation, ITs, more UTs), validations, implement persistence layer and more. We could discuss it
 
