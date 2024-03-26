@@ -1,0 +1,5 @@
+org\calculadora\controller\CalculatorController.class
+org\calculadora\Calculadora.class
+org\calculadora\service\CalculatorServiceImpl.class
+org\calculadora\config\AppConfig.class
+org\calculadora\service\impl\CalculatorService.class
