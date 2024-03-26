@@ -27,7 +27,7 @@ docker build -t sanitastest:latest .
 ```
 - execute: 
 ```bash
-run -p 8080:8080 -t sanitastest
+docker run -p 8080:8080 -t sanitastest
 ```
 # How to verify it?
 
