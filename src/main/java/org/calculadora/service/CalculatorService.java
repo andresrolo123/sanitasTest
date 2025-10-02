@@ -1,4 +1,4 @@
-package org.calculadora.service.impl;
+package org.calculadora.service;
 
 public interface CalculatorService {
 
