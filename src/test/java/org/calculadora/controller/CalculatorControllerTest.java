@@ -1,6 +1,6 @@
 package org.calculadora.controller;
 
-import org.calculadora.service.CalculatorServiceImpl;
+import org.calculadora.service.impl.CalculatorServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;

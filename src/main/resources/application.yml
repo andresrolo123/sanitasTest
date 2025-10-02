@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: calculator-microservice
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    org.calculadora: INFO
+    org.springframework.web: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
